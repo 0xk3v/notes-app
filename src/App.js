@@ -1,9 +1,16 @@
+import GlobalStyles from "./global";
+import { ThemeProvider } from "styled-components";
+import { lightTheme } from "./theme";
+import Notes from "./components/notes";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello world!!</h1>
-      <h2>...</h2>
-    </div>
+    <ThemeProvider theme={lightTheme}>
+      <>
+        <GlobalStyles />
+        <Notes />
+      </>
+    </ThemeProvider>
   );
 }
 
