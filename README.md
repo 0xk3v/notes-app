@@ -12,6 +12,3 @@ React Note Taking App
 ### Running Development Server
 
 ```yarn install```
-
-
-Made with 💚 
